@@ -1,5 +1,5 @@
-import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_base/app/pages/home/home_repository.dart';
 
 class HomePage extends StatefulWidget {
   
@@ -7,19 +7,18 @@ class HomePage extends StatefulWidget {
   const HomePage({Key key, this.title = "Home"}) : super(key: key);
 
   @override
-  _HomePageState createState() => _HomePageState();
+  _HomePageState createState() => _HomePageState(HomeRepository());
 }
 
 class _HomePageState extends State<HomePage> {
-  final FirebaseMessaging _messaging = FirebaseMessaging();
+
+  final HomeRepository repo;
+
+  _HomePageState(this.repo);
   @override
   void initState(){
     super.initState();
-    
-    _messaging.getToken().then((token) {
-      print(token);
-      print("xablau");
-    });
+    this.repo.registerDevice();
   }
   
   @override
