@@ -1,9 +1,10 @@
 import 'package:bloc_pattern/bloc_pattern.dart';
 
-class AppBloc extends BlocBase {
+class AuthBloc extends BlocBase {
   
+  var token;
 
-  verifySession(){
+  bool verifySession() {
     return true;
   }
   //dispose will be called automatically by closing its streams
@@ -11,5 +12,7 @@ class AppBloc extends BlocBase {
   void dispose() {
     super.dispose();
   }
+
+
 }
   

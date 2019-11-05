@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_base/app/app_module.dart';
 import 'package:flutter_base/app/pages/home/home_repository.dart';
+import 'package:flutter_base/app/shared/custom_dio/base_dio.dart';
 
 class HomePage extends StatefulWidget {
   
@@ -7,7 +9,7 @@ class HomePage extends StatefulWidget {
   const HomePage({Key key, this.title = "Home"}) : super(key: key);
 
   @override
-  _HomePageState createState() => _HomePageState(HomeRepository());
+  _HomePageState createState() => _HomePageState(HomeRepository(AppModule.to.getDependency<BaseDio>()));
 }
 
 class _HomePageState extends State<HomePage> {

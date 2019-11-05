@@ -1,3 +1,5 @@
+import 'package:flutter_base/app/app_module.dart';
+import 'package:flutter_base/app/shared/custom_dio/base_dio.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
 import 'package:dio/dio.dart';
@@ -11,7 +13,7 @@ void main() {
   MockClient client;
 
   setUp(() {
-    repository = HomeRepository();
+    repository = HomeRepository(AppModule.to.getDependency<BaseDio>());
     client = MockClient();
   });
 
