@@ -1,0 +1,7 @@
+#Thu Nov 07 09:14:20 BRT 2019
+base.0=/home/ronaldo/Área de Trabalho/my_projects/flutter_base/build/app/intermediates/transforms/dexMerger/debug/0
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/home/ronaldo/Área de Trabalho/my_projects/flutter_base/build/app/intermediates/transforms/dexMerger/debug/0

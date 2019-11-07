@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">433203407319-p46hud79duc14k1p0h1jni2pmgslccps.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://flutterapp-99610.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">433203407319</string>
+    <string name="google_api_key" translatable="false">AIzaSyBcZngN10H3fsr18TrCmJO2IUMP2FgoeJI</string>
+    <string name="google_app_id" translatable="false">1:433203407319:android:64e830055c702163b2c392</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBcZngN10H3fsr18TrCmJO2IUMP2FgoeJI</string>
+    <string name="google_storage_bucket" translatable="false">flutterapp-99610.appspot.com</string>
+    <string name="project_id" translatable="false">flutterapp-99610</string>
+</resources>

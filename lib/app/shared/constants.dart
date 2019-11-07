@@ -1,1 +1,1 @@
-const BASE_URL = "http://url-para-api.com";
+const BASE_URL = "http://192.168.1.139/flutter-api/api/web";

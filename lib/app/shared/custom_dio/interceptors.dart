@@ -7,6 +7,8 @@ class BaseInterceptors extends InterceptorsWrapper {
   @override
   Future onRequest(RequestOptions options) {
     options.headers = {'Authorization': AppModule.to.getBloc<AuthBloc>().token};
+    print('onrequest - ${options.method}');
+    print(AppModule.to.getBloc<AuthBloc>().token);
     return super.onRequest(options);
   }
 

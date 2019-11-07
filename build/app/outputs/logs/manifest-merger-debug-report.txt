@@ -1,0 +1,297 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/main/AndroidManifest.xml:1:1-33:12
+MERGED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/main/AndroidManifest.xml:1:1-33:12
+MERGED from [com.android.support:multidex:1.0.2] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/6fe47469495206ca04a1902efd22e204/AndroidManifest.xml:17:1-22:12
+MERGED from [:firebase_messaging] /home/ronaldo/Área de Trabalho/my_projects/flutter_base/build/firebase_messaging/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-20:12
+MERGED from [:shared_preferences] /home/ronaldo/Área de Trabalho/my_projects/flutter_base/build/shared_preferences/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-messaging-20.0.0.aar/fcadf26f017436e975121bf7c46e08db/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-iid:20.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.0.aar/260b647e9602b9c66ec467a36ed72706/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-common:19.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-common-19.0.0.aar/5e8658a15fc8c2333cc2105f9cbdc78b/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-17.0.0.aar/6370f984edfee025291aadfd04af958e/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/ae125757798771db8ea57e36615ae301/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/b483ad8c010510a1aecf1a7d002588d3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-18.0.0.aar/15343acd246eaa417593d44560424429/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/73f2d5070f9a244e45eebe0ea84a3b81/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/0c90cc8476db76cd3234db05db4a6209/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/5375bca4dcc5101e29818a95f9526860/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/dfdbc1f67ace6f8c220985c13f35c0ca/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/ed97db54446ab9e3c2e9f6b4652a5d2a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/4307168f776cd055a887f38bbbfc093d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/cdd7a75e3361c6aae49aa875bc753386/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/9bec1bf3ab6d5a7c1a393799205eaaa9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/aa9d1d8f40a79f3f876cd3f53b1f9f14/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/643c2954ce4d8e48bc70bb0dc7588bda/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/330cee04ef0bdda3faccafa94443ab85/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/a0705d75ac7bd89d97469126d2667b49/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/0680ca07855460a68778b11bf7363117/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/ef0cb5bc7ea8da6cbb0db4a53eb0e0fa/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/5cda7209262219e391d21ed253376919/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/e9a12fed284e49354b7a6c2ad841eea7/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/54c72d8234ac67f220df4020b55514c8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/57638e91763716517af55eaa4162f76c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/a6a887955d65cb24d73c5096c9a9f467/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/18bd978d9ab9f397f435cf4c34e68fb2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/eec64285aa09699f354832940667b62e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/24690a40241da89a78e493be8e2e1d82/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/0af97681d9468ffc0860fd21e5dbb6d0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/804a7a0ac7dbbe3725241e73609fc1f9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/a2a9cb20ccf9817c53d894e2e9035b3c/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/main/AndroidManifest.xml:2:5-39
+		INJECTED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		INJECTED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		INJECTED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/main/AndroidManifest.xml:9:5-32:19
+MERGED from [:firebase_messaging] /home/ronaldo/Área de Trabalho/my_projects/flutter_base/build/firebase_messaging/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-18:19
+MERGED from [:firebase_messaging] /home/ronaldo/Área de Trabalho/my_projects/flutter_base/build/firebase_messaging/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-18:19
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-messaging-20.0.0.aar/fcadf26f017436e975121bf7c46e08db/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-messaging-20.0.0.aar/fcadf26f017436e975121bf7c46e08db/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-iid:20.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.0.aar/260b647e9602b9c66ec467a36ed72706/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:20.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.0.aar/260b647e9602b9c66ec467a36ed72706/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-common:19.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-common-19.0.0.aar/5e8658a15fc8c2333cc2105f9cbdc78b/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:19.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-common-19.0.0.aar/5e8658a15fc8c2333cc2105f9cbdc78b/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-17.0.0.aar/6370f984edfee025291aadfd04af958e/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-17.0.0.aar/6370f984edfee025291aadfd04af958e/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/ae125757798771db8ea57e36615ae301/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/ae125757798771db8ea57e36615ae301/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/b483ad8c010510a1aecf1a7d002588d3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/b483ad8c010510a1aecf1a7d002588d3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-18.0.0.aar/15343acd246eaa417593d44560424429/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-18.0.0.aar/15343acd246eaa417593d44560424429/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/73f2d5070f9a244e45eebe0ea84a3b81/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/73f2d5070f9a244e45eebe0ea84a3b81/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/0c90cc8476db76cd3234db05db4a6209/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/0c90cc8476db76cd3234db05db4a6209/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/5cda7209262219e391d21ed253376919/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/5cda7209262219e391d21ed253376919/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/e9a12fed284e49354b7a6c2ad841eea7/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/e9a12fed284e49354b7a6c2ad841eea7/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/5cda7209262219e391d21ed253376919/AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/main/AndroidManifest.xml:11:9-37
+	android:icon
+		ADDED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/main/AndroidManifest.xml:12:9-43
+	android:name
+		ADDED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/main/AndroidManifest.xml:10:9-57
+activity#com.example.flutter_base.MainActivity
+ADDED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/main/AndroidManifest.xml:13:9-31:20
+	android:launchMode
+		ADDED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/main/AndroidManifest.xml:15:13-43
+	android:hardwareAccelerated
+		ADDED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/main/AndroidManifest.xml:18:13-47
+	android:windowSoftInputMode
+		ADDED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/main/AndroidManifest.xml:19:13-55
+	android:configChanges
+		ADDED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/main/AndroidManifest.xml:17:13-144
+	android:theme
+		ADDED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/main/AndroidManifest.xml:16:13-47
+	android:name
+		ADDED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/main/AndroidManifest.xml:14:13-41
+meta-data#io.flutter.app.android.SplashScreenUntilFirstFrame
+ADDED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/main/AndroidManifest.xml:24:13-26:40
+	android:value
+		ADDED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/main/AndroidManifest.xml:26:17-37
+	android:name
+		ADDED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/main/AndroidManifest.xml:25:17-82
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/main/AndroidManifest.xml:27:13-30:29
+action#android.intent.action.MAIN
+ADDED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/main/AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/main/AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/main/AndroidManifest.xml:29:17-76
+	android:name
+		ADDED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/main/AndroidManifest.xml:29:27-74
+uses-sdk
+INJECTED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.2] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/6fe47469495206ca04a1902efd22e204/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/6fe47469495206ca04a1902efd22e204/AndroidManifest.xml:20:5-43
+MERGED from [:firebase_messaging] /home/ronaldo/Área de Trabalho/my_projects/flutter_base/build/firebase_messaging/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_messaging] /home/ronaldo/Área de Trabalho/my_projects/flutter_base/build/firebase_messaging/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /home/ronaldo/Área de Trabalho/my_projects/flutter_base/build/shared_preferences/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /home/ronaldo/Área de Trabalho/my_projects/flutter_base/build/shared_preferences/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-messaging-20.0.0.aar/fcadf26f017436e975121bf7c46e08db/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-messaging-20.0.0.aar/fcadf26f017436e975121bf7c46e08db/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.0.aar/260b647e9602b9c66ec467a36ed72706/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.0.aar/260b647e9602b9c66ec467a36ed72706/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:19.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-common-19.0.0.aar/5e8658a15fc8c2333cc2105f9cbdc78b/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-common-19.0.0.aar/5e8658a15fc8c2333cc2105f9cbdc78b/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-17.0.0.aar/6370f984edfee025291aadfd04af958e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-17.0.0.aar/6370f984edfee025291aadfd04af958e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/ae125757798771db8ea57e36615ae301/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/ae125757798771db8ea57e36615ae301/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/b483ad8c010510a1aecf1a7d002588d3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/b483ad8c010510a1aecf1a7d002588d3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-18.0.0.aar/15343acd246eaa417593d44560424429/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-18.0.0.aar/15343acd246eaa417593d44560424429/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/73f2d5070f9a244e45eebe0ea84a3b81/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/73f2d5070f9a244e45eebe0ea84a3b81/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/0c90cc8476db76cd3234db05db4a6209/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/0c90cc8476db76cd3234db05db4a6209/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/5375bca4dcc5101e29818a95f9526860/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/5375bca4dcc5101e29818a95f9526860/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/dfdbc1f67ace6f8c220985c13f35c0ca/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/dfdbc1f67ace6f8c220985c13f35c0ca/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/ed97db54446ab9e3c2e9f6b4652a5d2a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/ed97db54446ab9e3c2e9f6b4652a5d2a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/4307168f776cd055a887f38bbbfc093d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/4307168f776cd055a887f38bbbfc093d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/cdd7a75e3361c6aae49aa875bc753386/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/cdd7a75e3361c6aae49aa875bc753386/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/9bec1bf3ab6d5a7c1a393799205eaaa9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/9bec1bf3ab6d5a7c1a393799205eaaa9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/aa9d1d8f40a79f3f876cd3f53b1f9f14/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/aa9d1d8f40a79f3f876cd3f53b1f9f14/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/643c2954ce4d8e48bc70bb0dc7588bda/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/643c2954ce4d8e48bc70bb0dc7588bda/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/330cee04ef0bdda3faccafa94443ab85/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/330cee04ef0bdda3faccafa94443ab85/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/a0705d75ac7bd89d97469126d2667b49/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/a0705d75ac7bd89d97469126d2667b49/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/0680ca07855460a68778b11bf7363117/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/0680ca07855460a68778b11bf7363117/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/ef0cb5bc7ea8da6cbb0db4a53eb0e0fa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/ef0cb5bc7ea8da6cbb0db4a53eb0e0fa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/5cda7209262219e391d21ed253376919/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/5cda7209262219e391d21ed253376919/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/e9a12fed284e49354b7a6c2ad841eea7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/e9a12fed284e49354b7a6c2ad841eea7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/54c72d8234ac67f220df4020b55514c8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/54c72d8234ac67f220df4020b55514c8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/57638e91763716517af55eaa4162f76c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/57638e91763716517af55eaa4162f76c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/a6a887955d65cb24d73c5096c9a9f467/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/a6a887955d65cb24d73c5096c9a9f467/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/18bd978d9ab9f397f435cf4c34e68fb2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/18bd978d9ab9f397f435cf4c34e68fb2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/eec64285aa09699f354832940667b62e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/eec64285aa09699f354832940667b62e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/24690a40241da89a78e493be8e2e1d82/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/24690a40241da89a78e493be8e2e1d82/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/0af97681d9468ffc0860fd21e5dbb6d0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/0af97681d9468ffc0860fd21e5dbb6d0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/804a7a0ac7dbbe3725241e73609fc1f9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/804a7a0ac7dbbe3725241e73609fc1f9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/a2a9cb20ccf9817c53d894e2e9035b3c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/a2a9cb20ccf9817c53d894e2e9035b3c/AndroidManifest.xml:20:5-44
+INJECTED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/debug/AndroidManifest.xml:6:5-66
+MERGED from [com.google.firebase:firebase-iid:20.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.0.aar/260b647e9602b9c66ec467a36ed72706/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.0.aar/260b647e9602b9c66ec467a36ed72706/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /home/ronaldo/Área de Trabalho/my_projects/flutter_base/android/app/src/debug/AndroidManifest.xml:6:22-64
+service#io.flutter.plugins.firebasemessaging.FlutterFirebaseMessagingService
+ADDED from [:firebase_messaging] /home/ronaldo/Área de Trabalho/my_projects/flutter_base/build/firebase_messaging/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:9-12:19
+	android:name
+		ADDED from [:firebase_messaging] /home/ronaldo/Área de Trabalho/my_projects/flutter_base/build/firebase_messaging/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:18-101
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [:firebase_messaging] /home/ronaldo/Área de Trabalho/my_projects/flutter_base/build/firebase_messaging/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:9:13-11:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [:firebase_messaging] /home/ronaldo/Área de Trabalho/my_projects/flutter_base/build/firebase_messaging/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:10:17-78
+	android:name
+		ADDED from [:firebase_messaging] /home/ronaldo/Área de Trabalho/my_projects/flutter_base/build/firebase_messaging/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:10:25-75
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_messaging] /home/ronaldo/Área de Trabalho/my_projects/flutter_base/build/firebase_messaging/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:9-17:19
+MERGED from [com.google.firebase:firebase-iid:20.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.0.aar/260b647e9602b9c66ec467a36ed72706/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:20.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.0.aar/260b647e9602b9c66ec467a36ed72706/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.0.aar/260b647e9602b9c66ec467a36ed72706/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [:firebase_messaging] /home/ronaldo/Área de Trabalho/my_projects/flutter_base/build/firebase_messaging/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebasemessaging.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_messaging] /home/ronaldo/Área de Trabalho/my_projects/flutter_base/build/firebase_messaging/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [:firebase_messaging] /home/ronaldo/Área de Trabalho/my_projects/flutter_base/build/firebase_messaging/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [:firebase_messaging] /home/ronaldo/Área de Trabalho/my_projects/flutter_base/build/firebase_messaging/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:15:17-127
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:20.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-messaging-20.0.0.aar/fcadf26f017436e975121bf7c46e08db/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:20.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-messaging-20.0.0.aar/fcadf26f017436e975121bf7c46e08db/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:20.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-messaging-20.0.0.aar/fcadf26f017436e975121bf7c46e08db/AndroidManifest.xml:29:13-82
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-iid:20.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.0.aar/260b647e9602b9c66ec467a36ed72706/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.0.aar/260b647e9602b9c66ec467a36ed72706/AndroidManifest.xml:22:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-iid:20.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.0.aar/260b647e9602b9c66ec467a36ed72706/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.0.aar/260b647e9602b9c66ec467a36ed72706/AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.0.aar/260b647e9602b9c66ec467a36ed72706/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.0.aar/260b647e9602b9c66ec467a36ed72706/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:20.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.0.aar/260b647e9602b9c66ec467a36ed72706/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.0.aar/260b647e9602b9c66ec467a36ed72706/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.0.aar/260b647e9602b9c66ec467a36ed72706/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:20.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.0.aar/260b647e9602b9c66ec467a36ed72706/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.0.aar/260b647e9602b9c66ec467a36ed72706/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.0.aar/260b647e9602b9c66ec467a36ed72706/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.0.aar/260b647e9602b9c66ec467a36ed72706/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.0.aar/260b647e9602b9c66ec467a36ed72706/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.0.aar/260b647e9602b9c66ec467a36ed72706/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.0.aar/260b647e9602b9c66ec467a36ed72706/AndroidManifest.xml:42:25-78
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-common-19.0.0.aar/5e8658a15fc8c2333cc2105f9cbdc78b/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-common-19.0.0.aar/5e8658a15fc8c2333cc2105f9cbdc78b/AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-common-19.0.0.aar/5e8658a15fc8c2333cc2105f9cbdc78b/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-common-19.0.0.aar/5e8658a15fc8c2333cc2105f9cbdc78b/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/firebase-common-19.0.0.aar/5e8658a15fc8c2333cc2105f9cbdc78b/AndroidManifest.xml:13:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/ae125757798771db8ea57e36615ae301/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/ae125757798771db8ea57e36615ae301/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/ae125757798771db8ea57e36615ae301/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/ae125757798771db8ea57e36615ae301/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/0c90cc8476db76cd3234db05db4a6209/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/0c90cc8476db76cd3234db05db4a6209/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/ronaldo/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/0c90cc8476db76cd3234db05db4a6209/AndroidManifest.xml:24:13-58
