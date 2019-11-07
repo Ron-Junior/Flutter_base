@@ -1,23 +1,20 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:bloc_pattern/bloc_pattern_test.dart';
 
-import 'package:flutter_base/app/pages/login/login_bloc.dart';
+import 'package:flutter_base/app/pages/image_picker/image_picker_bloc.dart';
 import 'package:flutter_base/app/app_module.dart';
 
 void main() {
-
   initModule(AppModule());
-  LoginBloc bloc;
-  
+  ImagePickerBloc bloc;
+
   setUp(() {
-      bloc = AppModule.to.bloc<LoginBloc>();
+    bloc = AppModule.to.bloc<ImagePickerBloc>();
   });
 
-  group('LoginBloc Test', () {
+  group('ImagePickerBloc Test', () {
     test("First Test", () {
-      expect(bloc, isInstanceOf<LoginBloc>());
+      expect(bloc, isInstanceOf<ImagePickerBloc>());
     });
   });
-
 }
-  
