@@ -18,7 +18,6 @@ class HomeRepository extends Disposable {
     _messaging.getToken().then((token) {
       saveDevice(token);
       print(token);
-      print("xablau");
     });
   }
 

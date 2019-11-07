@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_base/app/pages/login/login_bloc.dart';
 
 class LoginPage extends StatefulWidget {
   
@@ -17,7 +18,23 @@ class _LoginPageState extends State<LoginPage> {
         title: Text(widget.title),
       ),
       body: Column(
-        children: <Widget>[],
+        children: <Widget>[
+          new Center(
+            child: Column(
+              children: <Widget>[
+                RaisedButton(
+                  onPressed: () {
+                    LoginBloc().login();
+                  },
+                  child: const Text(
+                    'Entrar',
+                    style: TextStyle(fontSize: 20)
+                  ),
+                ),
+              ]
+            )
+          )
+        ],
       ),
     );
   }

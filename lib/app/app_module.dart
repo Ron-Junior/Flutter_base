@@ -1,3 +1,4 @@
+  import 'package:flutter_base/app/pages/login_repository.dart';
   import 'package:flutter_base/app/pages/login/login_bloc.dart';
 import 'package:flutter_base/app/app_bloc.dart';
 import 'package:bloc_pattern/bloc_pattern.dart';
@@ -15,7 +16,7 @@ class AppModule extends ModuleWidget {
   ];
 
   @override
-  List<Dependency> get dependencies => [
+  List<Dependency> get dependencies => [Dependency((i) => LoginRepository()),
     Dependency((i) => BaseDio())
   ];
 

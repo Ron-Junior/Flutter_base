@@ -30,7 +30,11 @@ class _HomePageState extends State<HomePage> {
         title: Text(widget.title),
       ),
       body: Column(
-        children: <Widget>[],
+        children: <Widget>[
+          new Container(
+            child: new Text('Logado'),
+          )
+        ],
       ),
     );
   }
