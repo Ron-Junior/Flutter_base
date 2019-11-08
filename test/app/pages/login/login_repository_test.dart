@@ -1,3 +1,4 @@
+import 'package:flutter_base/app/shared/custom_dio/base_dio.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
 import 'package:dio/dio.dart';
@@ -11,7 +12,7 @@ void main() {
   MockClient client;
 
   setUp(() {
-    repository = LoginRepository();
+    repository = LoginRepository(BaseDio());
     client = MockClient();
   });
 
@@ -19,15 +20,6 @@ void main() {
     test("First Test", () {
       expect(repository, isInstanceOf<LoginRepository>());
     });
-
-    test('returns a Post if the http call completes successfully', () async {
-      when(client.get('https://jsonplaceholder.typicode.com/posts/1'))
-          .thenAnswer((_) async =>
-              Response(data: {'title': 'Test'}, statusCode: 200));
-      Map<String, dynamic> data = await repository.fetchPost(client);
-      expect(data['title'], 'Test');
-    });
-
   });
 }
   

@@ -1,11 +1,13 @@
 import 'package:bloc_pattern/bloc_pattern.dart';
-import 'package:flutter_base/app/pages/login/login_module.dart';
+import 'package:flutter_base/app/pages/login/login_repository.dart';
 
 class LoginBloc extends BlocBase {
-  var logRepository = LoginModule.to.getBloc<LoginBloc>();
 
+  final LoginRepository logRepo;
+  // var logRepository = LoginModule.to.getBloc<LoginBloc>();
+  LoginBloc(this.logRepo);
   login(){
-    logRepository.login().then((res) {
+    this.logRepo.login().then((res) {
       print(res);
     });
     // AuthBloc().login().then((isLogged) {

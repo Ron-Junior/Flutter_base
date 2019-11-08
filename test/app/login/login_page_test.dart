@@ -5,7 +5,7 @@ import 'package:flutter_base/app/pages/login/login_page.dart';
 
 main() {
   testWidgets('LoginPage has title', (WidgetTester tester) async {
-    await tester.pumpWidget(buildTestableWidget(LoginPage(title: 'Login')));
+    await tester.pumpWidget(buildTestableWidget(LoginPage()));
     final titleFinder = find.text('Login');
     expect(titleFinder, findsOneWidget);
   });

@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_base/app/pages/login/login_bloc.dart';
+import 'package:flutter_base/app/pages/login/login_module.dart';
 
 class LoginPage extends StatefulWidget {
-  
-  final String title;
-  const LoginPage({Key key, this.title = "Login"}) : super(key: key);
 
   @override
   _LoginPageState createState() => _LoginPageState();
 }
 
 class _LoginPageState extends State<LoginPage> {
+  var loginBloc = LoginModule.to.getBloc<LoginBloc>();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.title),
+        title: Text('login'),
       ),
       body: Column(
         children: <Widget>[
@@ -24,7 +24,7 @@ class _LoginPageState extends State<LoginPage> {
               children: <Widget>[
                 RaisedButton(
                   onPressed: () {
-                    LoginBloc().login();
+                    loginBloc.login();
                   },
                   child: const Text(
                     'Entrar',
