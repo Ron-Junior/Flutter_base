@@ -9,8 +9,10 @@ class LoginRepository extends Disposable {
   LoginRepository(this._dio);
 
   Future<Object> login() async {
+    data.email = "ronaldo@email.com";
+    data.encrypted_password = 123;
     try{
-      final res = await _dio.post("/v1/login", data: this.data);
+      final res = await _dio.post("/v1/users/login", data: this.data);
       return res;
     }on DioError catch(err){
       throw err.message;

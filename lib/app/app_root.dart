@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_base/app/pages/home/home_module.dart';
 import 'package:flutter_base/app/pages/home/home_page.dart';
+import 'package:flutter_base/app/pages/login/login_module.dart';
 import 'package:flutter_base/app/pages/login/login_page.dart';
 import 'shared/auth/auth_bloc.dart';
 
@@ -37,9 +39,9 @@ class _RootPageState extends State<RootPage>{
   Widget build(BuildContext context) {
     switch (authStatus) {
       case AuthStatus.notSignedIn:
-        return new LoginPage();
+        return new LoginModule();
       case AuthStatus.signedIn:
-        return new HomePage();
+        return new HomeModule();
     }
   }
 
