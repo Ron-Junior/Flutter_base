@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Nov 11 08:41:08 BRT 2019
+#Mon Nov 11 09:00:09 BRT 2019
 4.path=lib/x86_64/libflutter.so
 8.set=DEX
 6.path=lib/x86/libflutter.so
