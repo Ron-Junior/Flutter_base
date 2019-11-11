@@ -1,5 +1,6 @@
 import 'package:bloc_pattern/bloc_pattern.dart';
 import 'package:dio/dio.dart';
+import 'package:flutter_base/app/models/user_model.dart';
 import 'package:flutter_base/app/shared/custom_dio/base_dio.dart';
 
 class LoginRepository extends Disposable {
@@ -9,8 +10,10 @@ class LoginRepository extends Disposable {
   LoginRepository(this._dio);
 
   Future<Object> login() async {
+    data = new User();
     data.email = "ronaldo@email.com";
-    data.encrypted_password = 123;
+    data.password = 123;
+    data = data.toJsom();
     try{
       final res = await _dio.post("/v1/users/login", data: this.data);
       return res;
@@ -27,4 +30,3 @@ class LoginRepository extends Disposable {
   }
 
 }
-  

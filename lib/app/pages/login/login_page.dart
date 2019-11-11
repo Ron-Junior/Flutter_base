@@ -21,12 +21,48 @@ class _LoginPageState extends State<LoginPage> {
       appBar: AppBar(
         title: Text('login'),
       ),
-      body: Column(
-        children: <Widget>[
-          new Center(
+      body: SingleChildScrollView(
+        child: Container(
+          height: MediaQuery.of(context).size.height,
+          padding:EdgeInsets.all(16),
             child: Column(
+              mainAxisSize: MainAxisSize.max,
+              mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
+                StreamBuilder<String>(
+                  stream: loginBloc.email,
+                  builder: (context, snapshot) => TextField(
+                    onChanged: loginBloc.emailChanged,
+                    keyboardType: TextInputType.emailAddress,
+                    decoration: InputDecoration(
+                      border: OutlineInputBorder(),
+                      hintText: 'Digite seu email',
+                      labelText: 'Email',
+                      errorText: snapshot.error
+                    ),
+                  ),
+                ),
+                SizedBox(
+                  height: 20.0,
+                ),
+                StreamBuilder<int>(
+                  stream: loginBloc.password,
+                  builder: (context, snapshot) => TextField(
+                    onChanged: loginBloc.passwordChanged,
+                    keyboardType: TextInputType.number,
+                    obscureText: true,
+                    decoration: InputDecoration(
+                      border: OutlineInputBorder(),
+                      hintText: 'Digite sua senha',
+                      labelText: 'Senha'
+                    ),
+                  ),
+                ),
+                SizedBox(
+                  height: 20.0,
+                ),
                 RaisedButton(
+                  color: Colors.tealAccent,
                   onPressed: () {
                     loginBloc.login();
                   },
@@ -35,10 +71,23 @@ class _LoginPageState extends State<LoginPage> {
                     style: TextStyle(fontSize: 20)
                   ),
                 ),
+                // StreamBuilder<bool>(
+                //   stream: loginBloc.submitCheck,
+                //   builder: (context, snapshot) => RaisedButton(
+                //     color: Colors.tealAccent,
+                //     onPressed: snapshot.hasData? () {
+                //       loginBloc.login();
+                //     }  : null,
+                //     child: const Text(
+                //       'Entrar',
+                //       style: TextStyle(fontSize: 20)
+                //     ),
+                //   ),
+                // )
+                
               ]
             )
-          )
-        ],
+        )
       ),
     );
   }

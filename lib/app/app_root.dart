@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_base/app/pages/home/home_module.dart';
-import 'package:flutter_base/app/pages/home/home_page.dart';
 import 'package:flutter_base/app/pages/login/login_module.dart';
-import 'package:flutter_base/app/pages/login/login_page.dart';
 import 'shared/auth/auth_bloc.dart';
 
 class RootPage extends StatefulWidget {
