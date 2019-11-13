@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/ronaldo/Área de Trabalho/my_projects/flutter_base/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
+            "outputFile": "/home/programacao/Área de Trabalho/my-projects/Flutter_base/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "/home/ronaldo/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/5cda7209262219e391d21ed253376919/res/values-v21/values-v21.xml",
+                    "source": "/home/programacao/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/ceb084e97b1eef5e87f5f20abb123e72/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
