@@ -11,9 +11,9 @@ mixin Validators {
     }
   );
 
-  var passwordValidator = StreamTransformer<int, int>.fromHandlers(
+  var passwordValidator = StreamTransformer<String, String>.fromHandlers(
     handleData: (password, sink) {
-      if(password > 0){
+      if(password.isEmpty){
         sink.add(password);
         print(password);
       }else{

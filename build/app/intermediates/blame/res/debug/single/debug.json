@@ -24,6 +24,10 @@
         "source": "/home/programacao/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/889ea5022c793ab0b9691d4b41d5b1c4/res/drawable/common_google_signin_btn_icon_light.xml"
     },
     {
+        "merged": "/home/programacao/Área de Trabalho/my-projects/Flutter_base/build/app/intermediates/res/merged/debug/layout_toast_custom.xml.flat",
+        "source": "/home/programacao/Área de Trabalho/my-projects/Flutter_base/build/fluttertoast/intermediates/packaged_res/debug/layout/toast_custom.xml"
+    },
+    {
         "merged": "/home/programacao/Área de Trabalho/my-projects/Flutter_base/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "/home/programacao/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/ceb084e97b1eef5e87f5f20abb123e72/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
     },
@@ -154,6 +158,10 @@
     {
         "merged": "/home/programacao/Área de Trabalho/my-projects/Flutter_base/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
         "source": "/home/programacao/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/889ea5022c793ab0b9691d4b41d5b1c4/res/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/home/programacao/Área de Trabalho/my-projects/Flutter_base/build/app/intermediates/res/merged/debug/drawable_toast_bg.xml.flat",
+        "source": "/home/programacao/Área de Trabalho/my-projects/Flutter_base/build/fluttertoast/intermediates/packaged_res/debug/drawable/toast_bg.xml"
     },
     {
         "merged": "/home/programacao/Área de Trabalho/my-projects/Flutter_base/build/app/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat",

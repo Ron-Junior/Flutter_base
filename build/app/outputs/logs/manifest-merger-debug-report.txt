@@ -6,6 +6,7 @@ INJECTED from /home/programacao/Área de Trabalho/my-projects/Flutter_base/andro
 INJECTED from /home/programacao/Área de Trabalho/my-projects/Flutter_base/android/app/src/main/AndroidManifest.xml:1:1-33:12
 MERGED from /home/programacao/Área de Trabalho/my-projects/Flutter_base/android/app/src/main/AndroidManifest.xml:1:1-33:12
 MERGED from [com.android.support:multidex:1.0.2] /home/programacao/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/9378dfd3de3a4f97d3519828b69ae483/AndroidManifest.xml:17:1-22:12
+MERGED from [:fluttertoast] /home/programacao/Área de Trabalho/my-projects/Flutter_base/build/fluttertoast/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
 MERGED from [:firebase_messaging] /home/programacao/Área de Trabalho/my-projects/Flutter_base/build/firebase_messaging/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-20:12
 MERGED from [:shared_preferences] /home/programacao/Área de Trabalho/my-projects/Flutter_base/build/shared_preferences/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-messaging:20.0.0] /home/programacao/.gradle/caches/transforms-1/files-1.1/firebase-messaging-20.0.0.aar/fd05f2a3a84bd34ddc55f18b93460258/AndroidManifest.xml:17:1-37:12
@@ -127,6 +128,8 @@ INJECTED from /home/programacao/Área de Trabalho/my-projects/Flutter_base/andro
 INJECTED from /home/programacao/Área de Trabalho/my-projects/Flutter_base/android/app/src/main/AndroidManifest.xml
 MERGED from [com.android.support:multidex:1.0.2] /home/programacao/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/9378dfd3de3a4f97d3519828b69ae483/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:multidex:1.0.2] /home/programacao/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/9378dfd3de3a4f97d3519828b69ae483/AndroidManifest.xml:20:5-43
+MERGED from [:fluttertoast] /home/programacao/Área de Trabalho/my-projects/Flutter_base/build/fluttertoast/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] /home/programacao/Área de Trabalho/my-projects/Flutter_base/build/fluttertoast/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_messaging] /home/programacao/Área de Trabalho/my-projects/Flutter_base/build/firebase_messaging/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_messaging] /home/programacao/Área de Trabalho/my-projects/Flutter_base/build/firebase_messaging/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:shared_preferences] /home/programacao/Área de Trabalho/my-projects/Flutter_base/build/shared_preferences/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44

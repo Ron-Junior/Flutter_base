@@ -1,6 +1,8 @@
 import 'package:dio/dio.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_base/app/app_module.dart';
 import 'package:flutter_base/app/shared/auth/auth_bloc.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 
 class BaseInterceptors extends InterceptorsWrapper {
  var token = AppModule.to.getBloc<AuthBloc>().token;
@@ -17,13 +19,22 @@ class BaseInterceptors extends InterceptorsWrapper {
 
   @override
   Future onResponse(Response response) {
-    
+    print(response.statusCode);
     return super.onResponse(response);
   }
 
   @override
   Future onError(DioError err) {
-    
+    Fluttertoast.showToast(
+        msg: err.response.data["message"],
+        toastLength: Toast.LENGTH_SHORT,
+        gravity: ToastGravity.BOTTOM,
+        timeInSecForIos: 1,
+        backgroundColor: Colors.red,
+        textColor: Colors.white,
+        fontSize: 16.0
+    );
+    print(err.response.statusCode);
     return super.onError(err);
   }
 }

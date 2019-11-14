@@ -45,11 +45,11 @@ class _LoginPageState extends State<LoginPage> {
                 SizedBox(
                   height: 20.0,
                 ),
-                StreamBuilder<int>(
+                StreamBuilder<String>(
                   stream: loginBloc.password,
                   builder: (context, snapshot) => TextField(
                     onChanged: loginBloc.passwordChanged,
-                    keyboardType: TextInputType.number,
+                    keyboardType: TextInputType.text,
                     obscureText: true,
                     decoration: InputDecoration(
                       border: OutlineInputBorder(),

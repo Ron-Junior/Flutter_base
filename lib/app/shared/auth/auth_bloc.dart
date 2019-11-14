@@ -10,7 +10,7 @@ class AuthBloc extends BlocBase {
   Stream<String> token = new Stream.value(null);
 
 
-  Future<String> login() async {
+  Future<String> setUser() async {
     SharedPreferences pref = await SharedPreferences.getInstance();
     await pref.setString('token', "xablau");
     return pref.getString('token');
