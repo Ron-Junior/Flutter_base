@@ -26,7 +26,7 @@ class _RootPageState extends State<RootPage>{
   void initState() {
     super.initState();
     AuthBloc().token.listen((token) {
-      print(token);
+      print( 'token' + token);
       setState(() {
         authStatus = token == null ? AuthStatus.notSignedIn : AuthStatus.signedIn;
       });

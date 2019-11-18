@@ -63,8 +63,9 @@ class _LoginPageState extends State<LoginPage> {
                 ),
                 RaisedButton(
                   color: Colors.tealAccent,
+                  
                   onPressed: () {
-                    loginBloc.login();
+                    loginBloc.login(context);
                   },
                   child: const Text(
                     'Entrar',

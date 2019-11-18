@@ -24,7 +24,9 @@ class LoginBloc extends Object with Validators implements BlocBase {
 
   String get emailValue => _emailController.value;
   String get passwordValue => _passwordController.value;
-  login(){
+  
+  
+  login(context){
     print(password);
     var data = new User();
     
@@ -32,7 +34,7 @@ class LoginBloc extends Object with Validators implements BlocBase {
     data.encryptedPassword = passwordValue;
 
 
-    this.logRepo.login(data).then((res) {
+    this.logRepo.login(data, context).then((res) {
       print(res);
     });
   }
