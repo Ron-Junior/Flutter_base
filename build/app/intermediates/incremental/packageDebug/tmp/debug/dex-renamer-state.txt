@@ -1,4 +1,7 @@
-#Sat Nov 02 16:37:34 BRT 2019
+#Tue Nov 19 14:55:10 BRST 2019
 base.0=C\:\\webserver\\Flutter_base\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
+path.1=classes2.dex
+renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
+base.1=C\:\\webserver\\Flutter_base\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
