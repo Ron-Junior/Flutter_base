@@ -1,10 +1,17 @@
+import 'dart:async';
+
 import 'package:bloc_pattern/bloc_pattern.dart';
+import 'package:rxdart/rxdart.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class AuthBloc extends BlocBase {
   String name;
   String email;
-  Stream<String> token = new Stream.value(null);
+  final tokenBehavior = BehaviorSubject<String>.seeded(null);
+  final StreamController tokenController = new StreamController<String>();
+  StreamSink<String> get inToken => tokenController.sink;
+  Stream<String> get token => tokenController.stream;
+  // Stream<String> token = new Stream.value(null);
   // String token;
   bool isLogged;
 
@@ -15,7 +22,12 @@ class AuthBloc extends BlocBase {
     await pref.setString('token', user['access_token']);
     this.email = user['email'];
     this.name = user['name'];
-    this.token = new Stream.value(user['access_token']);
+    // this.tokenController.sink.add(user["access_token"]);
+    this.tokenBehavior.add(user["access_token"]);
+    this.inToken.add(user["access_token"]);
+    // this._tokenController.sink.add(user["access_token"]);
+    print(this.token);
+    // this.token = new Stream.value(user['access_token']);
     return pref.getString('token');
   }
 
@@ -27,6 +39,8 @@ class AuthBloc extends BlocBase {
   @override
   void dispose() {
     super.dispose();
+    tokenBehavior.close();
+    tokenController.close();
   }
 
 

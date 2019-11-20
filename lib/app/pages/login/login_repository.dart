@@ -2,7 +2,6 @@ import 'package:bloc_pattern/bloc_pattern.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_base/app/app_module.dart';
 import 'package:flutter_base/app/app_root.dart';
 import 'package:flutter_base/app/models/user_model.dart';
 import 'package:flutter_base/app/shared/auth/auth_bloc.dart';

@@ -33,7 +33,6 @@ class LoginBloc extends Object with Validators implements BlocBase {
     data.email = emailValue;
     data.encryptedPassword = passwordValue;
 
-
     this.logRepo.login(data, context).then((res) {
       print(res);
     });
