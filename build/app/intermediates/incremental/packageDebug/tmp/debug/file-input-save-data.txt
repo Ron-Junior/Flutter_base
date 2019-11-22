@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Nov 22 09:16:33 BRT 2019
+#Fri Nov 22 09:39:12 BRT 2019
 4.path=flutter_assets/AssetManifest.json
 8.set=ASSET
 6.path=flutter_assets/isolate_snapshot_data

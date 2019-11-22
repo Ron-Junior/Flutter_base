@@ -21,7 +21,7 @@ class LoginRepository extends Disposable {
       final res = await _dio.post("/v1/users/login", data: this.data);
       if(res.statusCode == 200) {
         _auth.setUser(res.data).then((res) {
-          Navigator.push(
+          Navigator.pushReplacement(
             context,
             MaterialPageRoute(builder: (context) => RootPage()),
           );
