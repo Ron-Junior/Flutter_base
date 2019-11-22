@@ -16,15 +16,16 @@ class LoginRepository extends Disposable {
   LoginRepository(this._dio);
 
   Future<Object> login(User user, context) async {
-    data = user.toJson();
+    this.data = user.toJson();
     try{
       final res = await _dio.post("/v1/users/login", data: this.data);
       if(res.statusCode == 200) {
-        _auth.setUser(res.data);
-        Navigator.push(
-          context,
-          MaterialPageRoute(builder: (context) => RootPage()),
-        );
+        _auth.setUser(res.data).then((res) {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => RootPage()),
+          );
+        });
       }
       return res;
     }on DioError catch(err){

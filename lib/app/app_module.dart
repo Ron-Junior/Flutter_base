@@ -10,6 +10,7 @@ import 'package:flutter_base/app/shared/auth/auth_bloc.dart';
 
 import 'package:flutter_base/app/shared/custom_dio/base_dio.dart';
 
+
 class AppModule extends ModuleWidget {
   @override
   List<Bloc> get blocs => [

@@ -1,10 +1,8 @@
-import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_base/app/pages/home/home_module.dart';
 import 'package:flutter_base/app/pages/login/login_module.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'shared/auth/auth_bloc.dart';
-
 class RootPage extends StatefulWidget {
   RootPage({this.auth});
   final AuthBloc auth;
@@ -20,18 +18,18 @@ enum AuthStatus {
 }
 
 
-class _RootPageState extends State<RootPage>{
+class _RootPageState extends State<RootPage> {
+  AuthStatus authStatus = AuthStatus.notSignedIn;
   var auth = new AuthBloc();
-  AuthStatus authStatus = AuthStatus.notSignedIn;  
   @override
   void initState() {
     super.initState();
-    AuthBloc().tokenBehavior.stream.listen((token) {
+    auth.tokenBehavior.stream.listen((token) async {
+      SharedPreferences pref = await SharedPreferences.getInstance();
       setState(() {
-        authStatus = token == null ? AuthStatus.notSignedIn : AuthStatus.signedIn;
+        authStatus = pref.getString('token') == null ? AuthStatus.notSignedIn : AuthStatus.signedIn;
       });
     });
-  
   }
 
   @override 
