@@ -7,7 +7,7 @@ import 'package:flutter_base/app/pages/home/home_page.dart';
 import 'package:flutter_base/app/shared/custom_dio/base_dio.dart';
   class HomeModule extends ModuleWidget {
   @override
-  List<Bloc> get blocs => [Bloc((i) => HomeBloc()),];
+  List<Bloc> get blocs => [Bloc((i) => HomeBloc())];
 
   @override
   List<Dependency> get dependencies => [
