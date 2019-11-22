@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_base/app/pages/home/home_repository.dart';
 
 class HomePage extends StatefulWidget {
   
@@ -7,20 +6,10 @@ class HomePage extends StatefulWidget {
   const HomePage({Key key, this.title = "Home"}) : super(key: key);
 
   @override
-  _HomePageState createState() => _HomePageState(HomeRepository());
+  _HomePageState createState() => _HomePageState();
 }
 
 class _HomePageState extends State<HomePage> {
-
-  final HomeRepository repo;
-
-  _HomePageState(this.repo);
-  @override
-  void initState(){
-    super.initState();
-    this.repo.registerDevice();
-  }
-  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
