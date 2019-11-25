@@ -1,10 +1,17 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "/home/programacao/Área de Trabalho/my-projects/Flutter_base/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-lv/values-lv.xml",
             "map": [
                 {
                     "source": "/home/programacao/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/9ca647cc07bd6f3978454e2af40f7d02/res/values-lv/values.xml",
+=======
+            "outputFile": "C:\\webserver\\Flutter_base\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lv\\values-lv.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-17.0.0.aar\\2c516ebb7caae4fdf3d3a543d72d17d4\\res\\values-lv\\values.xml",
+>>>>>>> feature/image_picker
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -21,7 +28,28 @@
                     }
                 },
                 {
+<<<<<<< HEAD
                     "source": "/home/programacao/.gradle/caches/transforms-1/files-1.1/firebase-messaging-20.0.0.aar/fd05f2a3a84bd34ddc55f18b93460258/res/values-lv/values.xml",
+=======
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.2.aar\\193041b23024872d9d3417ef8ad54cc6\\res\\values-lv\\values-lv.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "3003",
+                        "endColumns": "100",
+                        "endOffsets": "3099"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-20.0.0.aar\\58dc8cf282ede97b9f32e23a70aacd88\\res\\values-lv\\values.xml",
+>>>>>>> feature/image_picker
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -38,7 +66,11 @@
                     }
                 },
                 {
+<<<<<<< HEAD
                     "source": "/home/programacao/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/889ea5022c793ab0b9691d4b41d5b1c4/res/values-lv/values.xml",
+=======
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fd1ebaf3978c0bdcefb156fca2dc0b25\\res\\values-lv\\values.xml",
+>>>>>>> feature/image_picker
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -53,6 +85,7 @@
                         "endColumns": "108,192,134,109,200,132,146,134,233,110,199,136,227,184,93,97,117",
                         "endOffsets": "209,402,537,647,848,981,1128,1263,1722,1833,2033,2170,2398,2583,2677,2775,2893"
                     }
+<<<<<<< HEAD
                 },
                 {
                     "source": "/home/programacao/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/ceb084e97b1eef5e87f5f20abb123e72/res/values-lv/values-lv.xml",
@@ -70,6 +103,8 @@
                         "endColumns": "100",
                         "endOffsets": "3099"
                     }
+=======
+>>>>>>> feature/image_picker
                 }
             ]
         }

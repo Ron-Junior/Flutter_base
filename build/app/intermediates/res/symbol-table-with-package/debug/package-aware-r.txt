@@ -97,7 +97,10 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+<<<<<<< HEAD
 drawable toast_bg
+=======
+>>>>>>> feature/image_picker
 id action_container
 id action_divider
 id action_image
@@ -158,7 +161,10 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+<<<<<<< HEAD
 layout toast_custom
+=======
+>>>>>>> feature/image_picker
 mipmap ic_launcher
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
@@ -206,3 +212,7 @@ styleable GradientColor android_startColor android_endColor android_type android
 styleable GradientColorItem android_color android_offset
 styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
 styleable SignInButton buttonSize colorScheme scopeUris
+<<<<<<< HEAD
+=======
+xml flutter_image_picker_file_paths
+>>>>>>> feature/image_picker
