@@ -1,72 +1,10 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
             "outputFile": "/home/programacao/Área de Trabalho/my-projects/Flutter_base/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-tl/values-tl.xml",
             "map": [
                 {
-                    "source": "/home/programacao/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/889ea5022c793ab0b9691d4b41d5b1c4/res/values-tl/values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "245,350,558,694,801,1018,1152,1300,1438,1676,1781,1990,2126,2347,2552,2646,2738",
-                        "endColumns": "104,207,135,106,216,133,147,137,237,104,208,135,220,204,93,91,105",
-                        "endOffsets": "349,557,693,800,1017,1151,1299,1437,1675,1780,1989,2125,2346,2551,2645,2737,2843"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,214,422,562,673,890,1028,1180,1527,1765,1874,2083,2223,2444,2653,2751,2847",
-                        "endColumns": "108,207,139,110,216,137,151,141,237,108,208,139,220,208,97,95,109",
-                        "endOffsets": "209,417,557,668,885,1023,1175,1317,1760,1869,2078,2218,2439,2648,2746,2842,2952"
-                    }
-                },
-                {
-                    "source": "/home/programacao/.gradle/caches/transforms-1/files-1.1/firebase-messaging-20.0.0.aar/fd05f2a3a84bd34ddc55f18b93460258/res/values-tl/values.xml",
-=======
-            "outputFile": "C:\\webserver\\Flutter_base\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-tl\\values-tl.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-20.0.0.aar\\58dc8cf282ede97b9f32e23a70aacd88\\res\\values-tl\\values.xml",
->>>>>>> feature/image_picker
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "205",
-                        "endColumns": "100",
-                        "endOffsets": "305"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2957",
-                        "endColumns": "104",
-                        "endOffsets": "3057"
-                    }
-                },
-                {
-<<<<<<< HEAD
-                    "source": "/home/programacao/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/9ca647cc07bd6f3978454e2af40f7d02/res/values-tl/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "204",
-                        "endOffsets": "451"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "1322",
-                        "endColumns": "204",
-                        "endOffsets": "1522"
-                    }
-                },
-                {
-                    "source": "/home/programacao/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/ceb084e97b1eef5e87f5f20abb123e72/res/values-tl/values-tl.xml",
-=======
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.2.aar\\193041b23024872d9d3417ef8ad54cc6\\res\\values-tl\\values-tl.xml",
->>>>>>> feature/image_picker
+                    "source": "/home/programacao/.gradle/caches/transforms-1/files-1.1/core-1.0.2.aar/e48c9abb130ecdced59b2b60bca13f17/res/values-tl/values-tl.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -81,11 +19,9 @@
                         "endColumns": "100",
                         "endOffsets": "3158"
                     }
-<<<<<<< HEAD
-=======
                 },
                 {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fd1ebaf3978c0bdcefb156fca2dc0b25\\res\\values-tl\\values.xml",
+                    "source": "/home/programacao/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/4b9153a2be8fd8069d775cb6a642acc5/res/values-tl/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -102,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-17.0.0.aar\\2c516ebb7caae4fdf3d3a543d72d17d4\\res\\values-tl\\values.xml",
+                    "source": "/home/programacao/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/39fe0a6abb0c2bc58f97d4f7aadc811c/res/values-tl/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -117,7 +53,23 @@
                         "endColumns": "204",
                         "endOffsets": "1522"
                     }
->>>>>>> feature/image_picker
+                },
+                {
+                    "source": "/home/programacao/.gradle/caches/transforms-1/files-1.1/firebase-messaging-20.0.0.aar/fa86a54685e25ddf035606bb90cd5bde/res/values-tl/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "205",
+                        "endColumns": "100",
+                        "endOffsets": "305"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2957",
+                        "endColumns": "104",
+                        "endOffsets": "3057"
+                    }
                 }
             ]
         }

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_base/app/app_module.dart';
 import 'package:flutter_base/app/pages/home/home_repository.dart';
+import 'package:flutter_base/app/pages/image_picker/image_picker_module.dart';
 import 'package:flutter_base/app/shared/custom_dio/base_dio.dart';
 
 class HomePage extends StatefulWidget {
@@ -34,7 +35,21 @@ class _HomePageState extends State<HomePage> {
         children: <Widget>[
           new Container(
             child: new Text('Logado'),
-          )
+          ),
+          RaisedButton(
+                  color: Colors.tealAccent,
+                  
+                  onPressed: () {
+                    Navigator.push(
+                      context, 
+                      MaterialPageRoute(builder: (context) => ImagePickerModule())
+                    );
+                  },
+                  child: const Text(
+                    'Abrir Image picker',
+                    style: TextStyle(fontSize: 20)
+                  ),
+                ),
         ],
       ),
     );

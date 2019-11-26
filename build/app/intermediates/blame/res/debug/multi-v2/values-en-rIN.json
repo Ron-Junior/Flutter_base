@@ -1,17 +1,10 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
             "outputFile": "/home/programacao/Área de Trabalho/my-projects/Flutter_base/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rIN/values-en-rIN.xml",
             "map": [
                 {
-                    "source": "/home/programacao/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/ceb084e97b1eef5e87f5f20abb123e72/res/values-en-rIN/values-en-rIN.xml",
-=======
-            "outputFile": "C:\\webserver\\Flutter_base\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rIN\\values-en-rIN.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.2.aar\\193041b23024872d9d3417ef8ad54cc6\\res\\values-en-rIN\\values-en-rIN.xml",
->>>>>>> feature/image_picker
+                    "source": "/home/programacao/.gradle/caches/transforms-1/files-1.1/core-1.0.2.aar/e48c9abb130ecdced59b2b60bca13f17/res/values-en-rIN/values-en-rIN.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

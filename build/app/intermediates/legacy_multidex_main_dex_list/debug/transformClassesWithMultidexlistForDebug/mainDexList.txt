@@ -64,6 +64,8 @@ androidx/annotation/WorkerThread.class
 androidx/annotation/XmlRes.class
 androidx/coordinatorlayout/widget/CoordinatorLayout$DefaultBehavior.class
 androidx/coordinatorlayout/widget/CoordinatorLayout$DispatchChangeEvent.class
+androidx/core/app/CoreComponentFactory$CompatWrapped.class
+androidx/core/app/CoreComponentFactory.class
 androidx/core/app/FrameMetricsAggregator$MetricType.class
 androidx/core/app/NotificationCompat$Action$SemanticAction.class
 androidx/core/app/NotificationCompat$BadgeIconType.class
@@ -140,12 +142,14 @@ com/google/firebase/platforminfo/AutoValue_LibraryVersion.class
 com/google/firebase/platforminfo/LibraryVersion.class
 io/flutter/app/FlutterApplication.class
 io/flutter/view/FlutterMain.class
+kotlin/BuilderInference.class
 kotlin/Deprecated.class
 kotlin/DeprecationLevel.class
 kotlin/DslMarker.class
 kotlin/Experimental$Level.class
 kotlin/Experimental.class
 kotlin/ExperimentalMultiplatform.class
+kotlin/ExperimentalUnsignedTypes.class
 kotlin/ExtensionFunctionType.class
 kotlin/Function.class
 kotlin/MathKt__BigDecimalsKt.class
@@ -155,6 +159,7 @@ kotlin/ParameterName.class
 kotlin/PublishedApi.class
 kotlin/ReplaceWith.class
 kotlin/SinceKotlin.class
+kotlin/SuccessOrFailureKt.class
 kotlin/Suppress.class
 kotlin/UnsafeVariance.class
 kotlin/UseExperimental.class
@@ -173,7 +178,11 @@ kotlin/collections/CollectionsKt__IteratorsKt.class
 kotlin/collections/CollectionsKt__MutableCollectionsJVMKt.class
 kotlin/collections/CollectionsKt__MutableCollectionsKt.class
 kotlin/collections/MapAccessorsKt.class
+kotlin/contracts/ExperimentalContracts.class
+kotlin/coroutines/RestrictsSuspension.class
 kotlin/coroutines/experimental/RestrictsSuspension.class
+kotlin/coroutines/jvm/internal/DebugMetadata.class
+kotlin/experimental/ExperimentalTypeInference.class
 kotlin/internal/AccessibleLateinitPropertyLiteral.class
 kotlin/internal/ContractsDsl.class
 kotlin/internal/DynamicExtension.class
@@ -187,6 +196,7 @@ kotlin/internal/PlatformDependent.class
 kotlin/internal/PureReifiable.class
 kotlin/internal/RequireKotlin.class
 kotlin/internal/RequireKotlinVersionKind.class
+kotlin/io/ByteStreamsKt.class
 kotlin/js/JsName.class
 kotlin/jvm/JvmClassMappingKt.class
 kotlin/jvm/JvmDefault.class
@@ -229,6 +239,13 @@ kotlin/jvm/functions/Function7.class
 kotlin/jvm/functions/Function8.class
 kotlin/jvm/functions/Function9.class
 kotlin/jvm/internal/FunctionImpl.class
+kotlin/random/Random$Companion.class
+kotlin/random/Random$Default.class
+kotlin/random/Random.class
+kotlin/ranges/RangesKt__RangesJVMKt.class
+kotlin/ranges/RangesKt__RangesKt.class
+kotlin/ranges/RangesKt___RangesKt.class
+kotlin/sequences/SequencesKt__SequenceBuilderKt.class
 kotlin/text/StringsKt__IndentKt.class
 kotlin/text/StringsKt__RegexExtensionsJVMKt.class
 kotlin/text/StringsKt__RegexExtensionsKt.class

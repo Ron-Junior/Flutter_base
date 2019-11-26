@@ -1,55 +1,10 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
             "outputFile": "/home/programacao/Área de Trabalho/my-projects/Flutter_base/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-is/values-is.xml",
             "map": [
                 {
-                    "source": "/home/programacao/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/9ca647cc07bd6f3978454e2af40f7d02/res/values-is/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "187",
-                        "endOffsets": "434"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "1237",
-                        "endColumns": "187",
-                        "endOffsets": "1420"
-                    }
-                },
-                {
-                    "source": "/home/programacao/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/889ea5022c793ab0b9691d4b41d5b1c4/res/values-is/values.xml",
-=======
-            "outputFile": "C:\\webserver\\Flutter_base\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-is\\values-is.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fd1ebaf3978c0bdcefb156fca2dc0b25\\res\\values-is\\values.xml",
->>>>>>> feature/image_picker
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "245,349,535,658,765,965,1088,1223,1353,1566,1670,1858,1982,2183,2363,2453,2542",
-                        "endColumns": "103,185,122,106,199,122,134,129,212,103,187,123,200,179,89,88,103",
-                        "endOffsets": "348,534,657,764,964,1087,1222,1352,1565,1669,1857,1981,2182,2362,2452,2541,2645"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,213,399,526,637,837,964,1103,1425,1638,1746,1934,2062,2263,2447,2541,2634",
-                        "endColumns": "107,185,126,110,199,126,138,133,212,107,187,127,200,183,93,92,107",
-                        "endOffsets": "208,394,521,632,832,959,1098,1232,1633,1741,1929,2057,2258,2442,2536,2629,2737"
-                    }
-                },
-                {
-<<<<<<< HEAD
-                    "source": "/home/programacao/.gradle/caches/transforms-1/files-1.1/firebase-messaging-20.0.0.aar/fd05f2a3a84bd34ddc55f18b93460258/res/values-is/values.xml",
-=======
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-20.0.0.aar\\58dc8cf282ede97b9f32e23a70aacd88\\res\\values-is\\values.xml",
->>>>>>> feature/image_picker
+                    "source": "/home/programacao/.gradle/caches/transforms-1/files-1.1/firebase-messaging-20.0.0.aar/fa86a54685e25ddf035606bb90cd5bde/res/values-is/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -66,11 +21,7 @@
                     }
                 },
                 {
-<<<<<<< HEAD
-                    "source": "/home/programacao/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/ceb084e97b1eef5e87f5f20abb123e72/res/values-is/values-is.xml",
-=======
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.2.aar\\193041b23024872d9d3417ef8ad54cc6\\res\\values-is\\values-is.xml",
->>>>>>> feature/image_picker
+                    "source": "/home/programacao/.gradle/caches/transforms-1/files-1.1/core-1.0.2.aar/e48c9abb130ecdced59b2b60bca13f17/res/values-is/values-is.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -85,11 +36,9 @@
                         "endColumns": "100",
                         "endOffsets": "2945"
                     }
-<<<<<<< HEAD
-=======
                 },
                 {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-17.0.0.aar\\2c516ebb7caae4fdf3d3a543d72d17d4\\res\\values-is\\values.xml",
+                    "source": "/home/programacao/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/39fe0a6abb0c2bc58f97d4f7aadc811c/res/values-is/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -104,7 +53,23 @@
                         "endColumns": "187",
                         "endOffsets": "1420"
                     }
->>>>>>> feature/image_picker
+                },
+                {
+                    "source": "/home/programacao/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/4b9153a2be8fd8069d775cb6a642acc5/res/values-is/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,349,535,658,765,965,1088,1223,1353,1566,1670,1858,1982,2183,2363,2453,2542",
+                        "endColumns": "103,185,122,106,199,122,134,129,212,103,187,123,200,179,89,88,103",
+                        "endOffsets": "348,534,657,764,964,1087,1222,1352,1565,1669,1857,1981,2182,2362,2452,2541,2645"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,213,399,526,637,837,964,1103,1425,1638,1746,1934,2062,2263,2447,2541,2634",
+                        "endColumns": "107,185,126,110,199,126,138,133,212,107,187,127,200,183,93,92,107",
+                        "endOffsets": "208,394,521,632,832,959,1098,1232,1633,1741,1929,2057,2258,2442,2536,2629,2737"
+                    }
                 }
             ]
         }

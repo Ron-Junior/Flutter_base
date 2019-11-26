@@ -1,11 +1,10 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
             "outputFile": "/home/programacao/Área de Trabalho/my-projects/Flutter_base/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-te/values-te.xml",
             "map": [
                 {
-                    "source": "/home/programacao/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/889ea5022c793ab0b9691d4b41d5b1c4/res/values-te/values.xml",
+                    "source": "/home/programacao/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/4b9153a2be8fd8069d775cb6a642acc5/res/values-te/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -22,13 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/programacao/.gradle/caches/transforms-1/files-1.1/firebase-messaging-20.0.0.aar/fd05f2a3a84bd34ddc55f18b93460258/res/values-te/values.xml",
-=======
-            "outputFile": "C:\\webserver\\Flutter_base\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-te\\values-te.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-20.0.0.aar\\58dc8cf282ede97b9f32e23a70aacd88\\res\\values-te\\values.xml",
->>>>>>> feature/image_picker
+                    "source": "/home/programacao/.gradle/caches/transforms-1/files-1.1/firebase-messaging-20.0.0.aar/fa86a54685e25ddf035606bb90cd5bde/res/values-te/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -45,10 +38,7 @@
                     }
                 },
                 {
-<<<<<<< HEAD
-                    "source": "/home/programacao/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/ceb084e97b1eef5e87f5f20abb123e72/res/values-te/values-te.xml",
-=======
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-17.0.0.aar\\2c516ebb7caae4fdf3d3a543d72d17d4\\res\\values-te\\values.xml",
+                    "source": "/home/programacao/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/39fe0a6abb0c2bc58f97d4f7aadc811c/res/values-te/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -65,8 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.2.aar\\193041b23024872d9d3417ef8ad54cc6\\res\\values-te\\values-te.xml",
->>>>>>> feature/image_picker
+                    "source": "/home/programacao/.gradle/caches/transforms-1/files-1.1/core-1.0.2.aar/e48c9abb130ecdced59b2b60bca13f17/res/values-te/values-te.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -80,40 +69,6 @@
                         "startOffsets": "2887",
                         "endColumns": "100",
                         "endOffsets": "2983"
-                    }
-                },
-                {
-<<<<<<< HEAD
-                    "source": "/home/programacao/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/9ca647cc07bd6f3978454e2af40f7d02/res/values-te/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "198",
-                        "endOffsets": "445"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "1239",
-                        "endColumns": "198",
-                        "endOffsets": "1433"
-=======
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fd1ebaf3978c0bdcefb156fca2dc0b25\\res\\values-te\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "245,353,539,667,780,976,1099,1230,1355,1563,1673,1857,1983,2193,2382,2472,2568",
-                        "endColumns": "107,185,127,112,195,122,130,124,207,109,183,125,209,188,89,95,106",
-                        "endOffsets": "352,538,666,779,975,1098,1229,1354,1562,1672,1856,1982,2192,2381,2471,2567,2674"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,217,403,535,652,848,975,1110,1438,1646,1760,1944,2074,2284,2477,2571,2671",
-                        "endColumns": "111,185,131,116,195,126,134,128,207,113,183,129,209,192,93,99,110",
-                        "endOffsets": "212,398,530,647,843,970,1105,1234,1641,1755,1939,2069,2279,2472,2566,2666,2777"
->>>>>>> feature/image_picker
                     }
                 }
             ]
